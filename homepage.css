@@ -4,3 +4,8 @@
   margin: -20% auto;
   width: 30rem;
 }
+
+
+ui.primary.menu {
+  margin: 0;
+}
