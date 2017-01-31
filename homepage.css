@@ -23,3 +23,19 @@
   margin: 3% auto;
   max-width: 80%;
 }
+
+@media (min-height: 320px) {
+  .ui.footer.segment { /* Increased specificity for SO snippet priority */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: #739CB9;
+  }
+}
+
+.footer-menu {
+  float: right;
+  margin: 3px 10px;
+  color: #F7F7F7;
+}
