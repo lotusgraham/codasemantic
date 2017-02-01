@@ -1,10 +1,17 @@
+
+
+#body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .clb-hdr {
   display: block;
   top: 30px;
   margin: -20% auto;
   width: 30rem;
 }
-
 
 .ui.primary.menu {
   margin: 0;
@@ -24,14 +31,14 @@
   max-width: 80%;
 }
 
-@media (min-height: 320px) {
-  .ui.footer.segment { /* Increased specificity for SO snippet priority */
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border-radius: 0;
-    background-color: #739CB9;
-  }
+footer { /* Increased specificity for SO snippet priority */
+  width: 100%;
+  border-radius: 0;
+  background-color: #739CB9;
+}
+
+.body-content {
+  flex: 1;
 }
 
 .footer-menu {
